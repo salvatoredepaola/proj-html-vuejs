@@ -53,7 +53,7 @@ export default {
                 <p class="mt-3 mb-5 my_fs-10">Volutpat vel turpis nulla lorem sed semper. Aliquam sagittis sem libero viverra vehicula nullam ut nisl.</p>
                 <div class="input-group ">
                     <input type="text" class="me-4 my_w420 my_fs-10 rounded-pill border-0" placeholder="     Insert your email...*" aria-label="Recipient's username" aria-describedby="button-addon2">
-                    <button class="fw-bold rounded-pill btn my_btn " type="button" id="button-addon2">Subscribe</button>
+                    <button class="fw-bold rounded-pill my_btn-green " type="button" id="button-addon2">Subscribe</button>
                 </div>
             </div>
         </div>
@@ -99,14 +99,7 @@ img{
 input:focus{
     outline: none;
 }
-.my_btn{
-  color: white;
-  padding: 16px 30px;
-  font-size: 10px;
-  background-color: #3d6f43;
-  border-radius: 25px;
-  border: 0;
-}
+
 .my_top{
     top: 130% !important
 }

@@ -3,3 +3,43 @@
 body{
     font-family: serif;
 }
+.my_fs-10{
+    font-size: 10px;
+  }
+.my_fs-12{
+    font-size: 12px;
+  }
+.my_btn-white{
+  border-radius: 25px;
+  color: black;
+  padding: 16px 30px;
+  font-size: 10px;
+  background-color: white;
+  border-radius: 25px;
+  border: 0;
+}
+.my_btn-green{
+  border-radius: 25px;
+  color: white;
+  padding: 16px 30px;
+  font-size: 10px;
+  background-color: #3d6f43;
+  border-radius: 25px;
+  border: 0;
+  }
+.my_bg-green{
+  background-color: #3d6f43; 
+}
+.my_text-green{
+    color: #3d6f43;
+  }
+.my_bg-darkgreen{
+  background-color: #1e3120;
+}
+.my_bg-paw{
+  background-image: url("/img/bg-transparent-3.png");
+  background-color: #1e3120;
+}
+.my_grey {
+    color: #bcc2bd
+  }

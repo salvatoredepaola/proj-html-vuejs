@@ -17,7 +17,7 @@ export default {
         </div>
         <img src="/img/food-transparent-18-400x420.png" class="card-img-top px-5 " alt="...">
         <div class="card-body text-center">
-          <button class="my_btn btn">Shop dry food</button>
+          <button class="my_btn-green">Shop dry food</button>
         </div>
       </div>
     </div>
@@ -30,7 +30,7 @@ export default {
         </div>
         <img src="/img/food-transparent-17-400x420.png" class="card-img-top px-5 " alt="...">
         <div class="card-body text-center">
-          <button class="my_btn btn">Shop moist food</button>
+          <button class="my_btn-green">Shop moist food</button>
         </div>
       </div>
     </div>
@@ -43,7 +43,7 @@ export default {
         </div>
         <img src="/img/food-transparent-16-400x420.png" class="card-img-top px-5 " alt="...">
         <div class="card-body text-center">
-          <button class="my_btn btn">Shop frozen food</button>
+          <button class="my_btn-green">Shop frozen food</button>
         </div>
       </div>
     </div>
@@ -57,27 +57,5 @@ h5{
 }
 p{
     margin: 0;
-}
-.my_bg-paw{
-  background-image: url("/img/bg-transparent-3.png");
-  background-color: #1e3120;
-}
-.my_text-green{
-  color: #3d6f43;
-}
-.my_bg-green{
-  background-color: #3d6f43;
-}
-
-.my_fs-12{
-  font-size: 12px;
-}
-.my_btn{
-  color: white;
-  padding: 16px 30px;
-  font-size: 10px;
-  background-color: #3d6f43;
-  border-radius: 25px;
-  border: 0;
 }
 </style>

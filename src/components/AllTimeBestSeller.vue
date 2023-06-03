@@ -12,7 +12,7 @@ export default {
         <p class="my_fs-25">Items everyone loves</p>
     </div>
     <div class="col d-flex justify-content-end align-items-center">
-        <button class="my_btn">View all products</button>
+        <button class="my_btn-green">View all products</button>
     </div>
 </div>
 <!-- BEST SELLER -->
@@ -64,15 +64,7 @@ export default {
 p{
     margin: 0;
 }
-.my_btn{
-  font-size: 10px;
-  color: white;
-  padding: 16px 30px;
-  font-size: 10px;
-  background-color: #3d6f43;
-  border-radius: 25px;
-  border: 0;
-}
+
 .my_text-green{
     color: #3d6f43;
     font-size: 15px;

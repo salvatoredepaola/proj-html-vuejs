@@ -38,7 +38,7 @@ export default {
   <!-- BEST SELLER -->
   <AllTimeBestSeller/>
 </div>
-<div class="container-fluid my_bg">
+<div class="container-fluid my_bg-paw">
   <!-- TestimonialsNewsletter -->
   <TestimonialsNewsletter/>
 </div>
@@ -47,7 +47,7 @@ export default {
   <!-- TipsTricks -->
   <TipsTricks/>
 </div>
-<div class="container-fluid">
+<div class="container-fluid my_bg-paw">
   <!-- Products -->
   <Products/>
 </div>
@@ -58,10 +58,7 @@ export default {
 </template>
 
 <style lang="scss" scoped>
-.my_bg{
-  background-image: url("/img/bg-transparent-3.png");
-  background-color: #1e3120;
-}
+
 .my_h500{
   height: 500px;
 }

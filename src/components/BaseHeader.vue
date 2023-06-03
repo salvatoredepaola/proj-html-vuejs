@@ -66,7 +66,7 @@ export default {
               <div class="col py-5 my-3">
                 <p class="my_fs-10 fw-bold">FIND THE BEST ANIMAL SUPPLIES</p >
                 <h1 class="py-5">We know animals are a part of your family, let us help take care of them</h1>
-                <button class="rounded-pill border-0 my_btn">Learn more about us</button>
+                <button class="my_btn-white">Learn more about us</button>
               </div>
             </div>
           </div>
@@ -117,33 +117,15 @@ p{
 .my_bg-white{
   background-color: #f2f3f2;
 }
-.my_grey {
-  color: #bcc2bd
-}
-.my_bg-green{
-  background-color: #3d6f43;
-}
-.my_bg-darkgreen{
-  background-color: #1e3120;
-}
-.my_fs-12{
-  font-size: 12px;
-}
-.my_bg-paw{
-  background-image: url("/img/bg-transparent-3.png");
-}
+
+
 .my_bg-dog{
   background-image: url("/img/banner-5-2x-scaled.jpg");
   background-position: center;
   background-size: cover;
 }
-.my_fs-10{
-  font-size: 10px;
-}
-.my_btn{
-  padding: 16px 30px;
-  font-size: 10px;
-}
+
+
 
 
 </style>

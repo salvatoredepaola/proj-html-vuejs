@@ -79,7 +79,4 @@ a{
 .my_padding{
   padding: 6px;
 }
-.my_fs-10{
-  font-size: 10px;
-}
 </style>

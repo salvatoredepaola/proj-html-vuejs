@@ -11,7 +11,7 @@ export default {
         <div class="col text-center text-white my_space-p">
             <p class="my_fs-10 fw-bold">FIND THE BEST ANIMAL SUPPLIES</p>
             <h1>New arrivals weekly</h1>
-            <button class="my_btn">Learn more about us</button>
+            <button class="my_btn-white">Learn more about us</button>
         </div>
     </div>
 </div>
@@ -29,17 +29,6 @@ h1{
     background-image: url("/img/banner-3-2x-scaled.jpg");
     background-position: center;
     background-size: cover;
-}
-.my_btn{
-  color: black;
-  padding: 16px 30px;
-  font-size: 10px;
-  background-color: white;
-  border-radius: 25px;
-  border: 0;
-}
-.my_fs-10{
-  font-size: 10px;
 }
 .my_space{
     margin: 100px 0;
