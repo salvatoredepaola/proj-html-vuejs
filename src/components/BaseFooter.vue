@@ -6,9 +6,9 @@ export default {
 
 <template>
 
-<header>
+<footer>
   
-</header>
+</footer>
 
 </template>
 
