@@ -5,18 +5,17 @@ export default {
 </script>
 
 <template>
-
-<div class="row">
+  <div class="row">
     <div class="col">
-        <p class="my_text-green">All-time best seller</p>
-        <p class="my_fs-25">Items everyone loves</p>
+      <p class="ff-sans my_text-green">All-time best seller</p>
+      <p class="my_fs-25">Items everyone loves</p>
     </div>
     <div class="col d-flex justify-content-end align-items-center">
-        <button class="my_btn-green">View all products</button>
+      <button class="my_btn-green">View all products</button>
     </div>
-</div>
-<!-- BEST SELLER -->
-<div class="row row-cols-1 row-cols-md-4 g-4">
+  </div>
+  <!-- BEST SELLER -->
+  <div class="row row-cols-1 row-cols-md-4 g-4">
     <div class="col">
       <div class="card border-0 rounded-0">
         <img src="/img/product-21-800x800.jpg" class="card-img-top" alt="...">
@@ -57,27 +56,34 @@ export default {
       </div>
     </div>
   </div>
-
 </template>
 
 <style lang="scss" scoped>
-p{
-    margin: 0;
+h5,
+span {
+  font-family: sans-serif;
 }
 
-.my_text-green{
-    color: #3d6f43;
-    font-size: 15px;
+p {
+  margin: 0;
 }
-.my_fs-25{
-    font-size: 25px;
+
+.my_text-green {
+  color: #3d6f43;
+  font-size: 15px;
 }
-.price{
-    color: #3d6f43;
+
+.my_fs-25 {
+  font-size: 25px;
 }
-.price-discount{
-    color: #3d6f43;
-    font-size: 10px;
-    text-decoration:line-through;
+
+.price {
+  color: #3d6f43;
+}
+
+.price-discount {
+  color: #3d6f43;
+  font-size: 10px;
+  text-decoration: line-through;
 }
 </style>

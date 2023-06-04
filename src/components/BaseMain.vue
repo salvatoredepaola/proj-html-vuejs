@@ -6,6 +6,7 @@ import AllTimeBestSeller from './AllTimeBestSeller.vue';
 import TestimonialsNewsletter from './Testimonials-Newsletter.vue';
 import TipsTricks from './Tips&Tricks.vue';
 import Products from './Products.vue';
+import NewProducts from './NewProducts.vue';
 
 
 
@@ -20,6 +21,7 @@ export default {
     TestimonialsNewsletter,
     TipsTricks,
     Products,
+    NewProducts,
   }
 }
 </script>
@@ -51,6 +53,11 @@ export default {
   <!-- Products -->
   <Products/>
 </div>
+<!-- NewProducts -->
+<div class="container">
+  <NewProducts/>
+</div>
+
 
 
 </main>

@@ -8,7 +8,7 @@ export default {
     <div class="row my_mb-50">
         <div class="col text-center">
             <h3>Get the best tips & tricks</h3>
-            <p class="my_text-green my_fs-12">Recent articles</p>
+            <p class="ff-sans my_text-green my_fs-12">Recent articles</p>
         </div>
     </div>
     <div class="row row-cols-1 row-cols-md-4 g-4 mb-3">
@@ -57,10 +57,16 @@ export default {
 </template>
 
 <style lang="scss" scoped>
-small{
-    color: #9ca59d;
+h6 {
+    font-family: sans-serif;
 }
-.my_mb-50{
+
+small {
+    color: #9ca59d;
+    font-family: sans-serif;
+}
+
+.my_mb-50 {
     margin-bottom: 50px;
 }
 </style>

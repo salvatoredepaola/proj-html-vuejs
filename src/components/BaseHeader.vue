@@ -23,13 +23,13 @@ export default {
           <!-- SEARCH -->
    
           <div class="input-group flex-nowrap my_w370 rounded-circle">
-            <span class="my_fs-12 my_bg-white input-group-text my_border-start" id="addon-wrapping">@</span>
-            <input type="text" class="my_fs-12 border-start-0 my_bg-white form-control my_border-end" placeholder="Search..." aria-label="Username" aria-describedby="addon-wrapping">
+            <span class="ff-sans my_fs-12 my_bg-white input-group-text my_border-start" id="addon-wrapping">@</span>
+            <input type="text" class="ff-sans my_fs-12 border-start-0 my_bg-white form-control my_border-end" placeholder="Search..." aria-label="Username" aria-describedby="addon-wrapping">
           </div>
 
         <!-- QUESTIONS -->
           
-          <p class="mb-0"><span class="fw-bold">Questions?</span> Call us : 1.800.123.4567</p>
+          <p class="mb-0 ff-sans"><span class="fw-bold">Questions?</span> Call us : 1.800.123.4567</p>
         
         <!-- ICONE -->
           
@@ -47,13 +47,13 @@ export default {
     <div class="container">
       <div class="row text-light text-center my_fs-12">
         <div class="col">
-          <p class="py-3"><span class="fw-bold">Internationals</span> Shipping Services</p>
+          <p class="py-3 ff-sans"><span class="fw-bold"><font-awesome-icon icon="map"/> Internationals</span> Shipping Services</p>
         </div>
         <div class="col">
-          <p class="py-3">See our <span class="fw-bold">store hours</span> and Services</p>
+          <p class="py-3 ff-sans"><font-awesome-icon icon="clock" /> See our <span class="fw-bold">store hours</span> and Services</p>
         </div>
         <div class="col">
-          <p class="py-3">We price match to give you the <span class="fw-bold">best deals</span></p>
+          <p class="py-3 ff-sans"><font-awesome-icon icon="check" /> We price match to give you the <span class="fw-bold">best deals</span></p>
         </div>
       </div>
     </div>
@@ -64,7 +64,7 @@ export default {
           <div class="col-5 text-light py-5 my-5">
             <div class="row py-5 my-5">
               <div class="col py-5 my-3">
-                <p class="my_fs-10 fw-bold">FIND THE BEST ANIMAL SUPPLIES</p >
+                <p class="my_fs-10 fw-bold ff-sans">FIND THE BEST ANIMAL SUPPLIES</p >
                 <h1 class="py-5">We know animals are a part of your family, let us help take care of them</h1>
                 <button class="my_btn-white">Learn more about us</button>
               </div>
@@ -77,8 +77,8 @@ export default {
       <div class="row">
         <div class="col d-flex text-white justify-content-center align-items-center">
           <img class="mt-4" src="/img/food-transparent-5-200x112.png" alt="">
-          <p class="mx-4 ">Get $25 OFF your first purchase of our homemade pet food!</p>  
-          <a href="" class="my_grey">Visit the shop</a>
+          <p class="mx-4 ff-sans">Get $25 OFF your first purchase of our homemade pet food!</p>  
+          <a href="" class="my_grey ff-sans">Visit the shop</a>
         </div>
       </div>
     </div>

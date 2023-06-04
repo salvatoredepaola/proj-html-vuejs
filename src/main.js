@@ -11,9 +11,12 @@ import { faCreditCard } from '@fortawesome/free-solid-svg-icons'
 import { faDollarSign } from '@fortawesome/free-solid-svg-icons'
 import { faMap } from '@fortawesome/free-solid-svg-icons'
 import { faTruck } from '@fortawesome/free-solid-svg-icons'
+import { faClock } from '@fortawesome/free-solid-svg-icons'
+import { faCheck } from '@fortawesome/free-solid-svg-icons'
+
 
 /* add icons to the library */
-library.add(faCreditCard,faDollarSign,faMap,faTruck)
+library.add(faCreditCard,faDollarSign,faMap,faTruck,faClock,faCheck)
 
 createApp(App)
 .component('font-awesome-icon', FontAwesomeIcon)

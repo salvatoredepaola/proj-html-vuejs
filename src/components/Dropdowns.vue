@@ -57,6 +57,8 @@ export default {
  background-color: white;
 }
 a{
+  font-size: 10px;
+  font-family: sans-serif;
   text-decoration: none;
   color: gray;
   margin: 0 20px;
