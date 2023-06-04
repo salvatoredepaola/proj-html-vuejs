@@ -43,11 +43,13 @@ export default {
 <style lang="scss" scoped>
 .my_bg-dog {
     background-image: url("/img/banner-8-2x.jpg");
+    background-position: center;
     background-size: cover;
 }
 
 .my_bg-cat {
     background-image: url("/img/banner-9-2x.jpg");
+    background-position: center;
     background-size: cover;
 }
 

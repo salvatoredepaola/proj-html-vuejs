@@ -87,10 +87,5 @@ span{
   color: #3d6f43;
 }
 
-.my_mt-100{
-    margin-top: 100px;
-}
-.my_mb-100{
-    margin-bottom: 100px;
-}
+
 </style>
