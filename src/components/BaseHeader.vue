@@ -32,9 +32,10 @@ export default {
           <p class="mb-0 ff-sans"><span class="fw-bold">Questions?</span> Call us : 1.800.123.4567</p>
         
         <!-- ICONE -->
-          
-          @
-          @
+          <div>
+            <font-awesome-icon icon="fa-solid fa-bag-shopping" class="mx-3"/>
+            <font-awesome-icon icon="fa-regular fa-user" />
+          </div>
         </div>
 
 

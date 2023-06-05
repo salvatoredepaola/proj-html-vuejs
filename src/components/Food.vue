@@ -7,7 +7,7 @@ export default {
 <template>
 
 
-  <div class="row row-cols-1 row-cols-md-3 g-4 ">
+  <div class="row row-cols-1 row-cols-md-3 g-4 my_mt-100">
     <!-- KIBBLE -->
     <div class="col">
       <div class="card my_bg-paw border-0 rounded-0">
@@ -52,6 +52,16 @@ export default {
 </template>
 
 <style lang="scss" scoped>
+.col{
+  &:hover{
+    transform: scale(1.05);
+  }
+}
+.card{
+  &:hover{
+    box-shadow: 0 0 10px 2px #333333;
+  }
+}
 h5{
     margin: 0;
 }

@@ -17,12 +17,18 @@ import { faTwitter } from '@fortawesome/free-brands-svg-icons'
 import { faFacebookF } from '@fortawesome/free-brands-svg-icons'
 import { faInstagram } from '@fortawesome/free-brands-svg-icons'
 import { faYoutube } from '@fortawesome/free-brands-svg-icons'
+import { faBagShopping} from '@fortawesome/free-solid-svg-icons'
+import { faUser as farUser} from '@fortawesome/free-regular-svg-icons'
+import { faSquareCheck as farSquareCheck} from '@fortawesome/free-regular-svg-icons'
+
+
+
 
 
 
 
 /* add icons to the library */
-library.add(faCreditCard,faDollarSign,faMap,faTruck,faClock,faCheck,faTwitter,faFacebookF,faInstagram,faYoutube)
+library.add(faCreditCard,faDollarSign,faMap,faTruck,faClock,faCheck,faTwitter,faFacebookF,faInstagram,faYoutube,faBagShopping,farUser,farSquareCheck)
 
 createApp(App)
 .component('font-awesome-icon', FontAwesomeIcon)

@@ -15,6 +15,9 @@ export default {
         <div class="col">
             <div class="card border-0 rounded-0">
                 <img src="/img/blog-1-800x800.jpg" class="card-img-top" alt="...">
+                <div class="position-absolute my_top-40 start-50 translate-middle text-white fw-bold">
+                    <h6>How to 'loose leash walk' your dog</h6>
+                </div>
                 <div class="card-body">
                     <h6>How to 'loose leash walk' your dog</h6>
                     <small class="my_fs-10">April 17th, 2020</small>
@@ -24,6 +27,9 @@ export default {
         <div class="col">
             <div class="card border-0 rounded-0">
                 <img src="/img/blog-2-800x800.jpg" class="card-img-top" alt="...">
+                <div class="position-absolute my_top-40 start-50 translate-middle text-white fw-bold">
+                    <h6>Stop cats from scratching furniture</h6>
+                </div>
                 <div class="card-body">
                     <h6>Stop cats from scratching furniture</h6>
                     <small class="my_fs-10">April 17th, 2020</small>
@@ -33,6 +39,9 @@ export default {
         <div class="col">
             <div class="card border-0 rounded-0">
                 <img src="/img/blog-3-800x800.jpg" class="card-img-top" alt="...">
+                <div class="position-absolute my_top-40 start-50 translate-middle text-white fw-bold">
+                    <h6>Where to buy the best pet food</h6>
+                </div>
                 <div class="card-body">
                     <h6>Where to buy the best pet food</h6>
                     <small class="my_fs-10">April 17th, 2020</small>
@@ -42,6 +51,9 @@ export default {
         <div class="col">
             <div class="card border-0 rounded-0">
                 <img src="/img/blog-4-800x800.jpg" class="card-img-top" alt="...">
+                <div class="position-absolute my_top-40 start-50 translate-middle text-white fw-bold">
+                    <h6>Proper care for your pet toys</h6>
+                </div>
                 <div class="card-body">
                     <h6>Proper care for your pet toys</h6>
                     <small class="my_fs-10">April 17th, 2020</small>
@@ -57,6 +69,9 @@ export default {
 </template>
 
 <style lang="scss" scoped>
+img{
+    border-radius: 0;
+}
 h6 {
     font-family: sans-serif;
 }
@@ -68,5 +83,20 @@ small {
 
 .my_mb-50 {
     margin-bottom: 50px;
+}
+.my_top-40{
+    top: 40% !important;
+}
+.card{
+    .position-absolute{
+        opacity: 0;
+    }
+    &:hover img{
+        opacity: 0.9;
+        filter: saturate(1.3);
+    }
+    &:hover .position-absolute{
+        opacity: 1;
+    }
 }
 </style>
