@@ -20,6 +20,8 @@ import { faYoutube } from '@fortawesome/free-brands-svg-icons'
 import { faBagShopping} from '@fortawesome/free-solid-svg-icons'
 import { faUser as farUser} from '@fortawesome/free-regular-svg-icons'
 import { faSquareCheck as farSquareCheck} from '@fortawesome/free-regular-svg-icons'
+import { faFolderOpen as farFolderOpen} from '@fortawesome/free-regular-svg-icons'
+
 
 
 
@@ -28,7 +30,7 @@ import { faSquareCheck as farSquareCheck} from '@fortawesome/free-regular-svg-ic
 
 
 /* add icons to the library */
-library.add(faCreditCard,faDollarSign,faMap,faTruck,faClock,faCheck,faTwitter,faFacebookF,faInstagram,faYoutube,faBagShopping,farUser,farSquareCheck)
+library.add(faCreditCard,faDollarSign,faMap,faTruck,faClock,faCheck,faTwitter,faFacebookF,faInstagram,faYoutube,faBagShopping,farUser,farSquareCheck,farFolderOpen)
 
 createApp(App)
 .component('font-awesome-icon', FontAwesomeIcon)

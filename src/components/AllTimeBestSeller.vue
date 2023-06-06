@@ -58,7 +58,7 @@ export default {
         <div class="card-body text-center">
           <h5>Animal transport cage</h5>
           <div class="col">
-            <span class="price-discount">$35.00</span>
+            <span class="price-discount ">$35.00</span>
             <span class="price"> $25.00</span>
           </div>
         </div>
@@ -83,15 +83,18 @@ export default {
 </template>
 
 <style lang="scss" scoped>
-img{
+img {
   border-radius: 0;
 }
-a{
+
+a {
   color: white;
-  &:hover{
+
+  &:hover {
     text-decoration: underline
   }
 }
+
 h5,
 span {
   font-family: sans-serif;
@@ -109,12 +112,14 @@ p {
 .my_fs-25 {
   font-size: 25px;
 }
-.my_box{
+
+.my_box {
   width: 80px;
   height: 80px;
   opacity: 0.8;
   background-color: black;
 }
+
 .price {
   color: #3d6f43;
 }
@@ -124,22 +129,27 @@ p {
   font-size: 10px;
   text-decoration: line-through;
 }
-.my_top-28{
-    top: 28% !important;
+
+.my_top-28 {
+  top: 28% !important;
 }
-.my_start-38{
-    left: 38% !important;
+
+.my_start-38 {
+  left: 38% !important;
 }
-.card{
-    .position-absolute{
-        opacity: 0;
-    }
-    &:hover img{
-        opacity: 0.9;
-        filter: brightness(0.7);
-    }
-    &:hover .position-absolute{
-        opacity: 1;
-    }
+
+.card {
+  .position-absolute {
+    opacity: 0;
+  }
+
+  &:hover img {
+    opacity: 0.9;
+    filter: brightness(0.7);
+  }
+
+  &:hover .position-absolute {
+    opacity: 1;
+  }
 }
 </style>

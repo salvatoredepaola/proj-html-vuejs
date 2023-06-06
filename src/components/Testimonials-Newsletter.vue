@@ -54,8 +54,8 @@ export default {
           <p class="ff-sans mt-3 mb-5 my_fs-10">Volutpat vel turpis nulla lorem sed semper. Aliquam sagittis sem libero
             viverra vehicula nullam ut nisl.</p>
           <div class="input-group ">
-            <input type="text" class="me-4 my_w420 my_fs-10 rounded-pill border-0"
-              placeholder="     Insert your email...*" aria-label="Recipient's username" aria-describedby="button-addon2">
+            <input type="text" class="me-4 my_w420 my_fs-10 rounded-pill border-0 ps-4"
+              placeholder="Insert your email...*" aria-label="Recipient's username" aria-describedby="button-addon2">
             <button class="fw-bold rounded-pill my_btn-green " type="button" id="button-addon2">Subscribe</button>
           </div>
         </div>

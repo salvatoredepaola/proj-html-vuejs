@@ -18,7 +18,7 @@ export default {
       <div class="row">
         <!-- MERCH -->
         <div class="col d-flex justify-content-between align-items-center my_fs-12">
-          <img class="my_w235" src="/img/dark-pet-logo.png" alt="">
+          <a href=""><img class="my_w235" src="/img/dark-pet-logo.png" alt=""></a>
         
           <!-- SEARCH -->
    
@@ -37,14 +37,21 @@ export default {
             <font-awesome-icon icon="fa-regular fa-user" />
           </div>
         </div>
-
-
       </div>
     </div>
   </div>
   <!-- DROP DOWNS E LINKS -->
   <Dropdowns/>
-  <div class="container-fluid my_bg-darkgreen my_bg-paw px-0">
+  <div class="container-fluid my_bg-darkgreen my_bg-paw px-0 position-relative">
+    <div class="position-absolute my_top-10 my_end-10 my_box rounded-2 text-center pt-2 ff-sans">
+      <font-awesome-icon icon="fa-regular fa-folder-open" class="fs-4"/>
+      <p>Demos</p>
+    </div>
+    <div class="position-absolute my_top-85 my_end-10 my_box rounded-2 text-center pt-2 ff-sans">
+      <span class="my_text-light-green align-top">$</span>
+      <span class="my_text-light-green my_fs-22">39</span>
+      <p>On Sale</p> 
+    </div>
     <div class="container">
       <div class="row text-light text-center my_fs-12">
         <div class="col">
@@ -92,6 +99,10 @@ export default {
 
 <style lang="scss" scoped>
 
+.my_fs-22{
+  font-size: 22px;
+}
+
 p{
   margin: 0;
 }
@@ -126,7 +137,24 @@ p{
   background-size: cover;
 }
 
+.my_box{
+  width: 66px;
+  height: 66px;
+  background-color: white;
+}
+.my_end-10{
+  right: 10px;
+}
+.my_top-10{
+  top: 10px;
+}
+.my_top-85{
+  top: 85px;
+}
 
+.my_text-light-green{
+  color: #65bc7b;
+}
 
 
 </style>

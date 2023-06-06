@@ -9,7 +9,7 @@ export default {
   <div class="row justify-content-center my_pt-100">
     <div class="col text-center my_680 mb-5">
       <h3>Browse by category</h3>
-      <p class="ff_sans">Augue purus et, tincidunt condimentum mauris. As nibh rutrum mi in. Nisi, vitae interdum eleifend
+      <p class="ff-sans">Augue purus et, tincidunt condimentum mauris. As nibh rutrum mi in. Nisi, vitae interdum eleifend
         dui, consequat nulla rhoncus dictum. Viverra</p>
     </div>
   </div>

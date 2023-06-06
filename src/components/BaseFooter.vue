@@ -49,10 +49,10 @@ export default {
       </div>
       <div class="row">
         <div class="col text-center">
-          <font-awesome-icon class="my_mx-10 text-white" icon="fa-brands fa-facebook-f"/>
-          <font-awesome-icon class="my_mx-10 text-white" icon="fa-brands fa-twitter"/>
-          <font-awesome-icon class="my_mx-10 text-white" icon="fa-brands fa-instagram"/>
-          <font-awesome-icon class="my_mx-10 text-white" icon="fa-brands fa-youtube" />
+          <a href=""><font-awesome-icon class="my_mx-10 text-white" icon="fa-brands fa-facebook-f"/></a>
+          <a href=""><font-awesome-icon class="my_mx-10 text-white" icon="fa-brands fa-twitter"/></a>
+          <a href=""><font-awesome-icon class="my_mx-10 text-white" icon="fa-brands fa-instagram"/></a>
+          <a href=""><font-awesome-icon class="my_mx-10 text-white" icon="fa-brands fa-youtube" /></a>
         </div>
       </div>
     </div>
